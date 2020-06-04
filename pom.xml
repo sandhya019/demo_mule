@@ -36,7 +36,7 @@
       			<muleVersion>4.3.0</muleVersion>
      	 		<username>sandhya019</username>
      		 	<password>Sandy1997</password>
-      			<applicationName>app-mulepoc</applicationName>
+      			<applicationName>app-mavenmule</applicationName>
       			<environment>Sandbox</environment>
       			<workers>1</workers>
       			<workerType>Micro</workerType>
