@@ -10,13 +10,22 @@
 
 	<name>maven_mule</name>
 
-    <properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
-		<app.runtime>4.3.0</app.runtime>
-		<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
-	</properties>
+   <properties>
+   	 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+			<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+   			<app.runtime>4.3.0</app.runtime>
+   			<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
+   			<deploymentType>cloudhub</deploymentType>
+   			<muleVersion>4.3.0</muleVersion>
+   			<redeploy>true</redeploy>
+   			<username>sandhya019</username>
+   			<password>Sandy1997</password>
+   			<applicationName>app-mulepoc</applicationName>
+   			<environment>Sandbox</environment>
+  	 		<workers>1</workers>
+   			<workerType>Micro</workerType>
+   			<anypoint.uri>https://anypoint.mulesoft.com</anypoint.uri>
+		</properties>
 
 	<build>
 		<plugins>
