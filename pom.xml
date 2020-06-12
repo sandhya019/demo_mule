@@ -44,18 +44,6 @@
    			</cloudHubDeployment>
 				</configuration>
 			</plugin>
-			<plugin>     
-				<groupId>au.com.dius</groupId>     
-				<artifactId>pact-jvm-provider-maven_2.12</artifactId>     
-				<version>3.5.24</version>     
-				<configuration>       
-					<pactBrokerUrl>http://pact_broker</pactBrokerUrl>       
-					<projectVersion>${pact.consumer.version}</projectVersion>       
-					<tags>         
-						<tag>${pact.tag}</tag>       
-					</tags>     
-				</configuration>   
-			</plugin> 
 			        </plugins>
     </build>
 		
